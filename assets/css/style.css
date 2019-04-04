@@ -19,5 +19,7 @@ header {
     max-width: 520px;
     height: 860px;
     margin: 10px;
-    font-size: 12pt;
+    font-size: 14pt;
+    padding: 10px;
+    line-height: 1.4;
 }
