@@ -1,3 +1,23 @@
 body {
     background-image: url("../images/background.jpg");
 }
+
+header {
+    color: white;
+    background-color: orange;
+    padding: 10px;
+    font-size: 26pt;
+    width: 100%;
+    max-width: 260px;
+    margin: 10px;
+}
+
+.description-box {
+    background-color: pink;
+    color: green;
+    width: 100%;
+    max-width: 520px;
+    height: 860px;
+    margin: 10px;
+    font-size: 12pt;
+}
