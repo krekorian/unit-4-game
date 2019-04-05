@@ -32,8 +32,9 @@ header {
     float: left;
     background-color: darkgreen;
     width: 250px;
-    height: 120px;
+    height: 80px;
     margin-left: 20px;
+    padding: 20px;
 }
 
 .win-space {
