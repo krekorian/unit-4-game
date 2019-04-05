@@ -10,7 +10,7 @@
 
 </head>
 
-<body>
+<body onload=startUp()>
     <header>
         Crystal Collector!
     </header>
@@ -31,7 +31,9 @@
 
     </div>
     <div class="content_frame">
-        <div class="result-space"></div>
+        <div class="result-space">
+            <div id="toGuessNumber"></div>
+        </div>
         <div class="win-space">
             <div>Win: <span id="win-count">0</span></div>
             <br>
