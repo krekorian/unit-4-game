@@ -9,7 +9,7 @@ header {
     font-size: 26pt;
     width: 100%;
     max-width: 260px;
-    margin: 10px;
+    margin: 10px 10px 10px 20px;
 }
 
 .description-box {
@@ -17,9 +17,45 @@ header {
     color: green;
     width: 100%;
     max-width: 520px;
-    height: 860px;
-    margin: 10px;
+    height: 460px;
+    margin: 10px 10px 10px 20px;
     font-size: 14pt;
     padding: 10px;
     line-height: 1.4;
+}
+
+.content_frame {
+    position: relative;
+}
+
+.result-space {
+    float: left;
+    background-color: darkgreen;
+    width: 150px;
+    height: 120px;
+    margin-left: 20px;
+}
+
+.crystal-square {
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin: 10px 20px;
+}
+
+.result-banner {
+    color: white;
+    background-color: darkgreen;
+    width: 200px;
+    margin-left: 20px;
+    padding: 5px 0px 5px 10px;
+}
+
+.result-square {
+    color: white;
+    background-color: darkgreen;
+    width: 200px;
+    margin: 10px 20px 40px 20px;
+    padding: 5px;
+    height: 50px;
 }
