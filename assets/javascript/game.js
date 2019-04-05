@@ -36,7 +36,7 @@ $(document).ready(function () {
         $("#toGuessNumber").text(noToGuess);
         $("#win-count").text(winCounter);
         $("#loss-count").text(loseCounter);
-        $("#guess-number").text(0);
+
     }
     /*(function ($) {
         $.fn.myfunction = function () {
@@ -58,10 +58,12 @@ $(document).ready(function () {
         $("#guess-number").text(out_number);
         if (out_number === noToGuess) {
             winCounter++;
+            $("#guess-number").text(0);
             startOver();
         }
         else if (out_number > noToGuess) {
             loseCounter++;
+            $("#guess-number").text(0);
             startOver();
 
         }
