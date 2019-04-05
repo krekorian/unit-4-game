@@ -31,9 +31,18 @@ header {
 .result-space {
     float: left;
     background-color: darkgreen;
-    width: 150px;
+    width: 250px;
     height: 120px;
     margin-left: 20px;
+}
+
+.win-space {
+    float: left;
+    background-color: #008080;
+    width: 150px;
+    height: 110px;
+    margin-left: 20px;
+    padding: 10px 0px 0px 10px;
 }
 
 .crystal-square {
