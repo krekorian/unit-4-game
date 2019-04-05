@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>unit-4-game</title>
+
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+</head>
+
+<body>
+    <header>
+        Crystal Collector!
+    </header>
+    <div class="description-box">
+        <p>You will given a random number at the start of the game.</p>
+        <br>
+        <p>There are four crystal below. By clicking on a crytal you will add a specific amount of points to your total
+            score.
+        </p>
+        <br>
+        <p>You win the game by matching your total score to random number, you lose the game if your total score goes
+            above the random number.
+        </p>
+        <br>
+        <p>The value of each crystal is hidden from you until you click on it.</p>
+        <br>
+        <p>Each time when the game starts, the game will change the values of each crystal.</p>
+
+    </div>
+    <div class="content_frame">
+        <div class="result-space"></div>
+        <div class="win-space">
+            <div>Win: <span id="win-count">0</span></div>
+            <br>
+            <div>Loss: <span id="loss-count">0</span></div>
+        </div>
+    </div>
+    <br style="clear:both" />
+
+    <div class="content_frame">
+        <img src="assets/images/diamond.jpg" class="crystal-square" value="diamond" />
+        <img src="assets/images/emerald.jpg" class="crystal-square" value="emerald" />
+        <img src="assets/images/yellow.jpg" class="crystal-square" value="yellow" />
+        <img src="assets/images/ruby.jpg" class="crystal-square" value="ruby" />
+    </div>
+    <br style="clear:both" />
+    <p class="result-banner">Your total score is</p>
+    <p class="result-square" id="guess-number"></p>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+
+</html>
