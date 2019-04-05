@@ -36,6 +36,7 @@ $(document).ready(function () {
         $("#toGuessNumber").text(noToGuess);
         $("#win-count").text(winCounter);
         $("#loss-count").text(loseCounter);
+        $("#guess-number").text(0);
     }
     /*(function ($) {
         $.fn.myfunction = function () {
