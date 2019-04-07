@@ -1,5 +1,5 @@
 $(document).ready(function () {
-
+    // set initial values
     crystals = {}
     var out_number;
     var noToGuess;
@@ -22,7 +22,7 @@ $(document).ready(function () {
         $("#loss-count").text(loseCounter);
     };
 
-
+    //controls the behavior of the click on the crytals
     $('.crystal-square').on('click', function () {
         entered_value = ($(this).attr("value"));
 
@@ -40,5 +40,7 @@ $(document).ready(function () {
 
         }
     });
+
+    //Starts the codes when the page is first loaded
     startUp();
 });
